@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F9F5EF;
+  color: #1C1C1C;
+}
+
+.font-display {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.tracking-widest-custom {
+  letter-spacing: 0.2em;
+}
